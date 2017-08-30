@@ -10,7 +10,10 @@ for i in range(months):
 print('\nIncome Report\n--------')
 
 total = 0
-print('Month {} - Income {$:.2f} Total: ${:.2f} '.format(month, income, ))
+for month in range(months):
+    income = incomes[month - 1]
+    total += income
+    print('Month {} - Income ${:.2f} Total: ${:.2f} '.format(month, income, total))
 
 
 

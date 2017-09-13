@@ -3,7 +3,7 @@
 individual_words = {}
 text = input('Text: ')
 
-# text: we were dressed in potential now we're draped in sorrow
+# text: how much wood could a woodchuck chuck if a woodchuck could chuck wood
 
 words = text.split()
 for word in words:
